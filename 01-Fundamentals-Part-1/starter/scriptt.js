@@ -47,6 +47,40 @@ TEST DATA 2 : Marks weights 95 kg and is 1.88 m  tall.
 
 
 */
+// Height
+const  MarkHeight = 1.96;
+const  johnHeight = 1.95;
+//console.log(MarkHeight ,johnHeight)
+// mass 
+const  MarkMass = 78;
+const  johnMass = 92;
+
+// BMI = Body mass idex
+
+//BMI = mass / height ** 2 = mass / (height * height)
+const MarksBMIs = (MarkMass / MarkHeight **2) ;
+const johnsBMIs = (johnMass / johnHeight **2) ;
+
+console.log(`Marks BMI is ${MarksBMIs}`)
+console.log(`Marks BMI is ${johnsBMIs}`)
+
+//Create a boolean variable  'markHeigherBMI' containing information about  whether mark has a higher BMI than john.
+
+
+if( MarksBMIs > johnsBMIs){
+   console.log(`Marks BMI is ${MarksBMIs} higher then ${johnsBMIs}`);
+   }else
+   {
+      console.log(`Johns BMI is ${johnsBMIs} higher then ${MarksBMIs}`);
+
+   }
+
+
+
+
+
+
+
 /*Challenge solution
 
 const markHeight = 1.69 , marksWeight = 87; // marks height and weight
